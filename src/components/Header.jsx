@@ -10,7 +10,7 @@ export default function Header(){
 
     return (
         <header>
-            <div class="header-container">
+            <div className="header-container">
                 <h1>Discover <span>Taniti</span></h1>
 
                 <nav>

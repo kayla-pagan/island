@@ -50,5 +50,12 @@ header nav a {
 }
 
 main {
-  background-color: red;
+  height: calc(100dvh - 140px);
+}
+
+.home {
+  background-image: url('./assets/mountain.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
