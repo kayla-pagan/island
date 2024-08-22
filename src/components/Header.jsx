@@ -6,6 +6,7 @@ export default function Header(){
         color: '#363537',
         backgroundColor: 'whitesmoke',
         borderBottom: '4px solid #8CD867',
+        borderRadius: '2px'
     }
 
     return (

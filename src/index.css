@@ -12,6 +12,7 @@ html, body {
 header {
   background-color: #363537;
   color: whitesmoke;
+  box-shadow: 0 0 15px #363537;
 }
 
 .header-container {
@@ -50,12 +51,18 @@ header nav a {
 }
 
 main {
-  height: calc(100dvh - 140px);
+  height: calc(100dvh - 122px);
 }
 
 .home {
   background-image: url('./assets/mountain.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 0.9;
+}
+
+.home p {
+  margin-top: 0;
+  padding-top: 0;
 }
