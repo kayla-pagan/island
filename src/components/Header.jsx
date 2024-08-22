@@ -5,7 +5,8 @@ export default function Header(){
     const activeStyle = {
         color: '#363537',
         backgroundColor: 'whitesmoke',
-        borderBottom: '4px solid #8CD867'
+        borderBottom: '4px solid #8CD867',
+        padding: '0.5em 1em'
     }
 
     return (
@@ -16,16 +17,52 @@ export default function Header(){
                 <nav>
                     <NavLink
                         to='/'
-                        style={({isActive}) => isActive ? activeStyle : ""}
+                        style={({isActive}) => isActive ? activeStyle : null}
                     >
                         HOME
                     </NavLink>
-                    <NavLink>ABOUT</NavLink>
-                    <NavLink>GETTING HERE</NavLink>
-                    <NavLink>GETTING AROUND</NavLink>
-                    <NavLink>HOTEL & RESORTS</NavLink>
-                    <NavLink>RESTAURANTS</NavLink>
-                    <NavLink>THINGS</NavLink>
+
+                    <NavLink
+                        to='/about'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        ABOUT
+                    </NavLink>
+
+                    <NavLink
+                        to='/gettinghere'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        GETTING HERE
+                    </NavLink>
+
+                    <NavLink
+                        to='/gettingaround'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        GETTING AROUND
+                    </NavLink>
+
+                    <NavLink
+                        to='/hotelresorts'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        HOTEL & RESORTS
+                    </NavLink>
+
+                    <NavLink
+                        to='/restaurants'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        RESTAURANTS
+                    </NavLink>
+
+                    <NavLink
+                        to='/things'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        THINGS
+                    </NavLink>
                 </nav>
             </div>
         </header>
