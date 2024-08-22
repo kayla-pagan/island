@@ -2,6 +2,11 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Header(){
+    const activeStyle = {
+        color: '#363537',
+        backgroundColor: 'whitesmoke',
+        borderBottom: '4px solid #8CD867'
+    }
 
     return (
         <header>
@@ -9,13 +14,18 @@ export default function Header(){
                 <h1>Discover <span>Taniti</span></h1>
 
                 <nav>
-                <a href="#">HOME</a>
-                <a href="">ABOUT</a>
-                <a href="">GETTING HERE</a>
-                <a href="">GETTING AROUND</a>
-                <a href="">HOTEL & RESORTS</a>
-                <a href="">RESTAURANTS</a>
-                <a href="">THINGS TO DO</a>
+                    <NavLink
+                        to='/'
+                        style={({isActive}) => isActive ? activeStyle : ""}
+                    >
+                        HOME
+                    </NavLink>
+                    <NavLink>ABOUT</NavLink>
+                    <NavLink>GETTING HERE</NavLink>
+                    <NavLink>GETTING AROUND</NavLink>
+                    <NavLink>HOTEL & RESORTS</NavLink>
+                    <NavLink>RESTAURANTS</NavLink>
+                    <NavLink>THINGS</NavLink>
                 </nav>
             </div>
         </header>
