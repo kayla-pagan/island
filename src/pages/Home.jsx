@@ -7,7 +7,7 @@ export default function Home(){
     return (
         <>
             <main className="home">
-                <div className="home--content">
+                <div className="content home--container">
                     <h2>Your perfect island adventure awaits</h2>
                     <p>
                         Explore Taniti's enchanting allure. We promise an unforgettable

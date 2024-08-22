@@ -44,10 +44,10 @@ export default function Header(){
                     </NavLink>
 
                     <NavLink
-                        to='/hotelresorts'
+                        to='/hotelsresorts'
                         style={({isActive}) => isActive ? activeStyle : null}
                     >
-                        HOTEL & RESORTS
+                        HOTELS & RESORTS
                     </NavLink>
 
                     <NavLink
