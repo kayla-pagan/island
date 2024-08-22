@@ -50,6 +50,10 @@ header nav a {
   padding: 0.5em 1em;
 }
 
+header nav a:hover {
+  border-bottom: 3px solid #8CD867;
+}
+
 main {
   height: calc(100dvh - 122px);
 }
@@ -70,9 +74,37 @@ main {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  color: whitesmoke
 }
 
-.home p {
+.home--content h2 {
+  font-size: 3rem;
+}
+
+.home--content p {
+  font-size: 1.3rem;
   margin-top: 0;
   padding-top: 0;
+}
+
+.home--content button {
+  color: whitesmoke;
+  background-color: #8CD867;
+  width: 100%;
+  max-width: 450px;
+  border: none;
+  border-radius: 4px;
+  padding: 1em 1.5em;
+  margin-top: 1em;
+  text-shadow: 0 0 1px black;
+  letter-spacing: 1px;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.home--content button:hover {
+  background-color: whitesmoke;
+  color: #363537;
+  cursor: pointer;
+  text-shadow: none;
 }

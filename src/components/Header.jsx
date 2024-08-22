@@ -61,7 +61,7 @@ export default function Header(){
                         to='/things'
                         style={({isActive}) => isActive ? activeStyle : null}
                     >
-                        THINGS
+                        THINGS TO DO
                     </NavLink>
                 </nav>
             </div>
