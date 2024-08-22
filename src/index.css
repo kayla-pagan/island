@@ -32,7 +32,7 @@ header h1 {
 header h1 span {
   color: #8CD867;
   font-family: "Merienda", cursive;
-  font-size: 4rem;
+  font-size: 4.3rem;
   display: block;
   margin-top: 0;
 }
@@ -40,4 +40,11 @@ header h1 span {
 header nav {
   display: flex;
   gap: 1em;
+}
+
+header nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0.5em 1em;
 }
