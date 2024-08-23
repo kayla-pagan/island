@@ -173,28 +173,36 @@ main {
   padding-top: 0.5em;
 }
 
-.gettinghere--container {
+.gettinghere--container,
+.restaurants--container {
   display: flex;
   gap: 1em;
   margin-top: 1.5em;
 }
 
-.gettinghere--info {
+.gettinghere--info,
+.restaurants--info {
   flex: 1 1 65%;
 }
 
 .gettinghere--img-plane,
-.gettinghere--img-cruise {
+.gettinghere--img-cruise,
+.restaurants--seafood,
+.restaurants--burger,
+.restaurants--sushi {
   flex: 1 1 35%;
 }
 
 .gettinghere--img-plane,
-.gettinghere--img-cruise {
+.gettinghere--img-cruise,
+.restaurants--seafood,
+.restaurants--burger,
+.restaurants--sushi {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 33dvh;
+  height: 30dvh;
 }
 
 .gettinghere--img-plane {
@@ -205,4 +213,43 @@ main {
 .gettinghere--img-cruise {
   background-image: url('./assets/cruise.jpg');
   background-position: center 70%;
+}
+
+.restaurants--container {
+  padding-bottom: 5em;
+}
+
+.restaurants--seafood {
+  background-image: url('./assets/seafood.jpg');
+}
+
+.restaurants--burger {
+  background-image: url('./assets/burger.jpg');
+}
+
+.restaurants--sushi {
+  background-image: url('./assets/sushi.jpg');
+}
+
+/* media queries */
+
+@media(max-width: 1200px){
+  .about--container,
+  .gettinghere--container,
+  .restaurants--container {
+    flex-direction: column;
+  }
+
+  .about--extra {
+    width: 100%;
+  }
+
+  .gettinghere--info,
+  .gettinghere--img-plane,
+  .gettinghere--img-cruise,
+  .restaurants--seafood,
+  .restaurants--burger,
+  .restaurants--sushi {
+    flex: 1 1 auto;
+  }
 }
