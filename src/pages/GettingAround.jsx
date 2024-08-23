@@ -7,69 +7,72 @@ export default function GettingAround(){
                 <div className="content">
                     <h2><span className="underline">Getting</span> around Taniti</h2>
                     <p>
-                        Taniti offers a variety of transportation options that cater to 
-                        both the adventurous traveler and those seeking convenience.
+                        Taniti provides a collection of transportation options that cater to 
+                        every kind of traveler. Whether you are looking for convinience or the 
+                        flexibility to take yourself wherever you want, when you want, we've 
+                        got you covered.
                     </p>
 
                     <div>
                         <h3>Public Bus</h3>
                         <p>
-                            Public buses are a reliable and affordable way to navigate Taniti City. 
-                            Operating daily from 5 a.m. to 11 p.m., these buses provide consistent 
-                            service throughout the City. The buses are typically punctual, making 
-                            them a popular choice for both locals and visitors. This is the perfect 
-                            option for those looking to explore without the hassle of driving.
+                            Public buses are a reliable and cheap way to get around Taniti City. 
+                            These buses run from 5 a.m. to 11 p.m, every day. throughout the 
+                            city. Due to their impeccable puntuality, these buses are a popular 
+                            choice for both residents and tourists. This is the best option for 
+                            those looking to explore without the strain of driving themselves and 
+                            the posibility of getting lost.
                         </p>
                     </div>
                     <div>
                         <h3>Private Bus</h3>
                         <p>
-                            For destinations beyond Taniti City, private buses are available to transport 
-                            travelers to other parts of the island. These buses connect the city to more 
-                            remote areas, including the lush rainforests, rocky beaches, and the volcanic 
-                            interior. Private bus services may have different schedules and pricing, so 
-                            it’s advisable to check with local operators for specific routes and times.
+                            For various destinations located outside of Taniti City, private buses 
+                            are available to take travelers people further into the island. These buses 
+                            link the city to more remote regions of the island such as the rainforest, 
+                            alternative beach locations, and the volcanic interior. Please note that 
+                            private buses services may have different timings and fares so it's 
+                            recommended to check with local operators for specific routes and times 
+                            that need to be followed.
                         </p>
                     </div>
                     <div>
                         <h3>Taxi</h3>
                         <p>
-                            Taxis are readily available in Taniti City and can be hailed on the street or 
-                            booked in advance through local taxi companies. Taxi services are particularly 
-                            useful for shorter trips within the city or for reaching destinations that aren’t 
-                            on the bus routes. The drivers are usually knowledgeable about the area and can 
-                            provide recommendations on the best places to visit.
+                            Taxis can be easily found in Taniti City as they can be hailed on the street or 
+                            requested in advance through local taxi companies via website or by phone. Taxi 
+                            services are useful for short distances within the city or for going places where 
+                            no public buses are available. The drivers know the ins and outs of the city and 
+                            island which allows them to recommend some of the best attractions in the city.
                         </p>
                     </div>
                     <div>
                         <h3>Rental Car</h3>
                         <p>
-                            For those who prefer the flexibility of driving themselves, rental cars are available 
-                            from a local rental agency conveniently located near the airport. Renting a car allows 
-                            you to explore the island at your own pace. The roads are generally well-maintained, 
-                            and traffic is light outside the city, making driving an enjoyable experience. 
+                            For those that enjoy having the flexibility of driving themselves, rental cars are 
+                            made available from a rental agency located near the airport. The advantage of a car  
+                            rental is that it allows you to roam about on your own schedule. Most roads here on the 
+                            island thoroughly maintained making the driving experience enjoyable. 
                         </p>
                     </div>
                     <div>
                         <h3>Bicycle Rental</h3>
                         <p>
-                            Cycling is a popular mode of transportation in Taniti, particularly in the flat, easily 
-                            navigable areas of Taniti City. Bikes and helmets can be rented from several vendors 
-                            across the city, with helmets being mandatory by law for all riders. For eco-conscious 
-                            travelers or those who enjoy a more active way to explore, cycling provides an intimate 
-                            way to experience the island’s beauty. Additionally, bike paths and lanes in Taniti 
-                            City ensure a safe and pleasant ride.
+                            Cycling is common among different people in Taniti, especially because of the flat
+                            terreains in the city. Various retailers offer bikes and helmets as rentals, providing
+                            travelers a more active means of transportation. Bike paths and lanes can be found in 
+                            Taniti City which creates a safe route for cyclists.
                         </p>
                     </div>
                     <div>
                         <h3>Walking</h3>
                         <p>
-                            Taniti City is known for its walkability, with flat terrain and well-marked paths that 
-                            make it easy to explore on foot. Many tourists choose to stay in the vibrant area 
-                            surrounding Merriton Landing, a district rich in dining, shopping, and entertainment 
-                            options. This area is particularly pedestrian-friendly, allowing visitors to leisurely 
-                            stroll from one attraction to the next. Walking also provides a great opportunity to 
-                            interact with locals and discover hidden gems.
+                            Taniti City is recognized for being extremely walkkable. The flat terrains and 
+                            marked paths make it a worry-free experience to explore on foot. Many visitors choose 
+                            to stay near Merriton Landing, which is particularly suitable for pedestrians looking to 
+                            stroll from one attraction to the next. Another reason why people should consider this 
+                            way of getting around is so that they can get more opportunities to speak with locals 
+                            while exploring.
                         </p>
                     </div>
                 </div>

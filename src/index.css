@@ -179,10 +179,13 @@ main {
   margin-top: 1.5em;
 }
 
-.gettinghere--info,
+.gettinghere--info {
+  flex: 1 1 65%;
+}
+
 .gettinghere--img-plane,
 .gettinghere--img-cruise {
-  flex: 1 1 40%;
+  flex: 1 1 35%;
 }
 
 .gettinghere--img-plane,
