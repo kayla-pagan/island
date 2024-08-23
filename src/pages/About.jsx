@@ -10,7 +10,7 @@ export default function About(){
 
                 <div className="content about--container">
                     <div className="about--info">
-                        <h2><span>Discover</span> our hidden paradise</h2>
+                        <h2><span className="underline">Discover</span> our hidden paradise</h2>
                         <p>
                             Taniti is a small, tropical island in the Pacific. 
                             While the island has an area of less than 500 square miles, 

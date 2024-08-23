@@ -48,6 +48,7 @@ header nav a {
   text-decoration: none;
   color: whitesmoke;
   padding: 0.5em 1em;
+  transition: 0.1s;
 }
 
 header nav a:hover {
@@ -75,6 +76,14 @@ main {
 .content {
   width: 90%;
   margin: 0 auto;
+}
+
+.content h2 {
+  font-size: 2.3rem;
+}
+
+.content p {
+  font-size: 1.5rem;
 }
 
 .home--container h2 {
@@ -132,16 +141,8 @@ main {
   flex: 1 1 50%;
 }
 
-.about--info h2 {
-  font-size: 2.3rem;
-}
-
-.about--info span {
+.underline {
   border-bottom: 4px solid #8CD867;
-}
-
-.about--info p {
-  font-size: 1.5rem;
 }
 
 .about--extra {
@@ -153,6 +154,10 @@ main {
   font-size: 1.5rem;
 }
 
+.about--extra p:first-of-type {
+  margin-top: 0;
+}
+
 .about--extra button {
   border: none;
   color: whitesmoke;
@@ -162,4 +167,39 @@ main {
   font-family: inherit;
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+.gettinghere--main h2 {
+  padding-top: 0.5em;
+}
+
+.gettinghere--container {
+  display: flex;
+  gap: 1em;
+  margin-top: 1.5em;
+}
+
+.gettinghere--info,
+.gettinghere--img-plane,
+.gettinghere--img-cruise {
+  flex: 1 1 40%;
+}
+
+.gettinghere--img-plane,
+.gettinghere--img-cruise {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 33dvh;
+}
+
+.gettinghere--img-plane {
+  background-image: url('./assets/plane.jpg');
+  
+}
+
+.gettinghere--img-cruise {
+  background-image: url('./assets/cruise.jpg');
+  background-position: center 70%;
 }
