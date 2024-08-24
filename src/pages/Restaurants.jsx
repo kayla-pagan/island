@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Restaurants(){
     return (
-        <main>
+        <main className="restaurants--main">
             <div className="content">
                 <h2><span className="underline">Dining</span> in Tanini</h2>
                 <p>

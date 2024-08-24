@@ -63,6 +63,13 @@ export default function Header(){
                     >
                         THINGS TO DO
                     </NavLink>
+
+                    <NavLink
+                        to='/contact'
+                        style={({isActive}) => isActive ? activeStyle : null}
+                    >
+                        CONTACT
+                    </NavLink>
                 </nav>
             </div>
         </header>

@@ -48,7 +48,7 @@ header nav a {
   text-decoration: none;
   color: whitesmoke;
   padding: 0.5em 1em;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 header nav a:hover {
@@ -56,7 +56,7 @@ header nav a:hover {
 }
 
 main {
-  height: calc(100dvh - 122px);
+  height: calc(100dvh - 105px);
 }
 
 .home {
@@ -82,7 +82,7 @@ main {
   font-size: 2.3rem;
 }
 
-.content p {
+.content h3, .content p {
   font-size: 1.5rem;
 }
 
@@ -113,7 +113,8 @@ main {
 }
 
 .home--container button:hover,
-.about--extra button:hover {
+.about--extra button:hover,
+#contact--form button:hover {
   background-color: whitesmoke;
   color: #363537;
   cursor: pointer;
@@ -137,7 +138,11 @@ main {
   background-repeat: no-repeat;
 }
 
-.about--info {
+.about--info,
+.things--entertainment,
+.things--sightseeing,
+.contact--info,
+.contact--questions {
   flex: 1 1 50%;
 }
 
@@ -169,32 +174,62 @@ main {
   font-weight: 700;
 }
 
-.gettinghere--main h2 {
-  padding-top: 0.5em;
+.gettinghere--main h2,
+.gettingaround--main h2,
+.hotelsresorts--main h2,
+.restaurants--main h2,
+.things--main h2 {
+  padding-top: 1.5em;
 }
 
 .gettinghere--container,
-.restaurants--container {
+.gettingaround--container,
+.restaurants--container,
+.hotelsresorts--container,
+.things--container,
+.contact--container {
   display: flex;
   gap: 1em;
   margin-top: 1.5em;
 }
 
 .gettinghere--info,
-.restaurants--info {
+.gettingaround--info,
+.hotelsresorts--info,
+.restaurants--info
+ {
   flex: 1 1 65%;
 }
 
 .gettinghere--img-plane,
 .gettinghere--img-cruise,
+.gettingaround--public-bus,
+.gettingaround--private-bus,
+.gettingaround--taxi,
+.gettingaround--rental-car,
+.gettingaround--bike,
+.gettingaround--walking,
+.hotelsresorts--resort,
+.hotelsresorts--family-hotel,
+.hotelsresorts--bed-and-breakfast,
 .restaurants--seafood,
 .restaurants--burger,
 .restaurants--sushi {
   flex: 1 1 35%;
+  border-radius: 8px;
 }
 
 .gettinghere--img-plane,
 .gettinghere--img-cruise,
+.gettingaround--public-bus,
+.gettingaround--private-bus,
+.gettingaround--taxi,
+.gettingaround--rental-car,
+.gettingaround--bike,
+.gettingaround--walking,
+.hotelsresorts--resort,
+.hotelsresorts--family-hotel,
+.hotelsresorts--bed-and-breakfast,
 .restaurants--seafood,
 .restaurants--burger,
 .restaurants--sushi {
@@ -203,6 +238,18 @@ main {
   background-repeat: no-repeat;
   width: 100%;
   height: 30dvh;
+}
+
+.hotelsresorts--resort {
+  background-image: url('./assets/resort.jpg');
+}
+
+.hotelsresorts--family-hotel {
+  background-image: url('./assets/family-hotel.jpg');
+}
+
+.hotelsresorts--bed-and-breakfast {
+  background-image: url('./assets/bed-and-breakfast.jpg');
 }
 
 .gettinghere--img-plane {
@@ -215,7 +262,33 @@ main {
   background-position: center 70%;
 }
 
-.restaurants--container {
+.gettingaround--public-bus {
+  background-image: url('./assets/public-bus.jpg');
+}
+
+.gettingaround--private-bus {
+  background-image: url('./assets/private-bus.jpg');
+}
+
+.gettingaround--taxi {
+  background-image: url('./assets/taxi.jpg');
+}
+
+.gettingaround--rental-car {
+  background-image: url('./assets/rental-car.jpg');
+}
+
+.gettingaround--bike {
+  background-image: url('./assets/bike.jpg');
+}
+
+.gettingaround--walking {
+  background-image: url('./assets/walking.jpg');
+}
+
+.gettingaround--container:last-of-type,
+.hotelsresorts--container:last-of-type,
+.restaurants--container:last-of-type {
   padding-bottom: 5em;
 }
 
@@ -231,11 +304,59 @@ main {
   background-image: url('./assets/sushi.jpg');
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+  grid-gap: 1em;
+  justify-items: center;
+  padding-top: 5em;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  min-height: 14em;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#contact--form div {
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+}
+
+#contact--form input,
+#contact--form textarea {
+  outline: none;
+  border: none;
+  background-color: #8CD86790;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0.8em 1.2em;
+  width: 80%;
+}
+
+#contact--form textarea {
+  height: 10em;
+  resize: none;
+}
+
+#contact--form button {
+  border: none;
+  color: whitesmoke;
+  background-color: #363537;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+
 /* media queries */
 
 @media(max-width: 1200px){
   .about--container,
   .gettinghere--container,
+  .gettingaround--container,
+  .hotelsresorts--container,
   .restaurants--container {
     flex-direction: column;
   }
@@ -247,6 +368,15 @@ main {
   .gettinghere--info,
   .gettinghere--img-plane,
   .gettinghere--img-cruise,
+  .gettingaround--public-bus,
+  .gettingaround--private-bus,
+  .gettingaround--taxi,
+  .gettingaround--rental-car,
+  .gettingaround--bike,
+  .gettingaround--walking,
+  .hotelsresorts--resort,
+  .hotelsresorts--family-hotel,
+  .hotelsresorts--bed-and-breakfast,
   .restaurants--seafood,
   .restaurants--burger,
   .restaurants--sushi {
