@@ -52,12 +52,12 @@ export default function Things(){
                     </div>
 
                     <div className="gallery">
-                        <img src={snorkling} alt="" />
-                        <img src={ziplining} alt="" />
-                        <img src={arcade} alt="" />
-                        <img src={art} alt="" />
-                        <img src={rainforest} alt="" />
-                        <img src={volcano} alt="" />
+                        <img src={snorkling} alt="Woman snorkeling in the ocean" />
+                        <img src={ziplining} alt="Woman ziplining with an excited expression on her face" />
+                        <img src={arcade} alt="Dark arcade with multiple gaming machines" />
+                        <img src={art} alt="Art gallery with several painting on display" />
+                        <img src={rainforest} alt="Path in a rainforest" />
+                        <img src={volcano} alt="Landscape of greenery and volcano in the distance" />
                     </div>
                 </div>
             </main>
