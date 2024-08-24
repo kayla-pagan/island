@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function GettingAround(){
+    useEffect(() => {
+        document.title = "Getting around"
+    }, [])
+
     return (
         <>
             <main className="gettingaround--main">

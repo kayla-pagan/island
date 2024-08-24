@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Restaurants(){
+    useEffect(() => {
+        document.title = "Restaurants"
+    }, [])
+
     return (
         <main className="restaurants--main">
             <div className="content">

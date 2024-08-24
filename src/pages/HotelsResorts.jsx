@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function HotelResorts(){
+    useEffect(() => {
+        document.title = "Hotels & Resorts"
+    }, [])
+
     return (
         <>
             <main className="hotelsresorts--main">

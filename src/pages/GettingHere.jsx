@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function GettingHere(){
+    useEffect(() => {
+        document.title = "Getting here"
+    }, [])
+
     return (
         <>
             <main className="gettinghere--main">

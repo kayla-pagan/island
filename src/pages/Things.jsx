@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import snorkling from '../assets/snorkling.jpg'
 import ziplining from '../assets/ziplining.jpg'
 import arcade from '../assets/arcade.jpg'
 import art from '../assets/art.jpg'
 import rainforest from '../assets/rainforest.jpg'
 import volcano from '../assets/volcano.jpg'
+import { useEffect } from 'react';
 
 
 export default function Things(){
+    useEffect(() => {
+        document.title = "Things to do"
+    }, [])
+
     return (
         <>
             <main className="things--main">
