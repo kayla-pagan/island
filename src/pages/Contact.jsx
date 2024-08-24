@@ -131,6 +131,12 @@ export default function Contact(){
                             euros and yen. Several banks facilitate currency exchange, and many businesses accept 
                             major credit cards.
                         </p>
+
+                        <h3>What shopping options are available for groceries?</h3>
+                        <p>
+                            Taniti has two supermarkets, two smaller grocery stores, and one convenience store that is 
+                            open 24 hours a day. 
+                        </p>
                     </div>
                 </div>
             </main>
