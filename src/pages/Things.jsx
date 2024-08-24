@@ -5,7 +5,6 @@ import arcade from '../assets/arcade.jpg'
 import art from '../assets/art.jpg'
 import rainforest from '../assets/rainforest.jpg'
 import volcano from '../assets/volcano.jpg'
-import { useEffect } from 'react';
 
 
 export default function Things(){
