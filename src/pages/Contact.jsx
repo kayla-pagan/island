@@ -1,11 +1,12 @@
 import React from "react";
+import { useRef } from "react";
 
 export default function Contact(){
-    const contactForm = document.getElementById('contact--form')
+    const formRef = useRef(null)
 
     function handleSubmit(e){
         e.preventDefault()
-        contactForm.reset()
+        formRef.current.reset()
 
     }
 
