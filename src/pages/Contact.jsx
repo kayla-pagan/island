@@ -1,12 +1,30 @@
 import React from "react";
-import { useRef } from "react";
+import { useState } from "react";
 
 export default function Contact(){
-    const formRef = useRef(null)
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    })
+
+    function handleChange(e){
+        const {name, value} = e.target
+
+        setFormData(prevData => ({
+            ...prevData,
+            [name]: value
+        }))
+    }
 
     function handleSubmit(e){
         e.preventDefault()
-        formRef.current.reset()
+
+        setFormData({
+            name: "",
+            email: "",
+            message: ""
+        })
 
     }
 
@@ -30,6 +48,8 @@ export default function Contact(){
                                     name="name" 
                                     id="name" 
                                     placeholder="John Smith" 
+                                    value={formData.name}
+                                    onChange={handleChange}
                                     required 
                                 />
                             </div>
@@ -40,6 +60,8 @@ export default function Contact(){
                                     name="email" 
                                     id="email" 
                                     placeholder="johnsmith@example.com" 
+                                    value={formData.email}
+                                    onChange={handleChange}
                                     required 
                                 />
                             </div>
@@ -48,7 +70,9 @@ export default function Contact(){
                                 <textarea 
                                     name="message" 
                                     id="message" 
-                                    placeholder="Type issue or concern here" 
+                                    placeholder="Type issue or concern here"
+                                    value={formData.message}
+                                    onChange={handleChange} 
                                     required
                                 ></textarea>
                             </div>
