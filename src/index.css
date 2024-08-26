@@ -358,6 +358,7 @@ main {
   .gettingaround--container,
   .hotelsresorts--container,
   .restaurants--container,
+  .things--container,
   .contact--container {
     flex-direction: column;
   }
