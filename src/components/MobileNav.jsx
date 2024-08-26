@@ -16,6 +16,10 @@ export default function MobileNav(){
         setOpenMenu(prevState => !prevState)
     }
 
+    function closeMenu() {
+        setOpenMenu(false)
+    }
+
     return (
         <header>
             <div className="header-container mobile-nav">
@@ -37,6 +41,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             HOME
                         </NavLink>
@@ -44,6 +49,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/about'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             ABOUT
                         </NavLink>
@@ -51,6 +57,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/gettinghere'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             GETTING HERE
                         </NavLink>
@@ -58,6 +65,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/gettingaround'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             GETTING AROUND
                         </NavLink>
@@ -65,6 +73,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/hotelsresorts'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             HOTELS & RESORTS
                         </NavLink>
@@ -72,6 +81,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/restaurants'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             RESTAURANTS
                         </NavLink>
@@ -79,6 +89,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/things'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             THINGS TO DO
                         </NavLink>
@@ -86,6 +97,7 @@ export default function MobileNav(){
                         <NavLink
                             to='/contact'
                             style={({isActive}) => isActive ? activeStyle : null}
+                            onClick={closeMenu}
                         >
                             CONTACT
                         </NavLink>
