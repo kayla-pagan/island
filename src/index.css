@@ -313,9 +313,11 @@ main {
   background-image: url('./assets/walking.jpg');
 }
 
+.gettinghere--container:last-of-type,
 .gettingaround--container:last-of-type,
 .hotelsresorts--container:last-of-type,
-.restaurants--container:last-of-type {
+.restaurants--container:last-of-type,
+.gallery {
   padding-bottom: 5em;
 }
 
