@@ -21,14 +21,13 @@ export default function GettingHere(){
                         <div className="gettinghere--info">
                             <h3>By air</h3>
                             <p>
-                                Taniti is served by a small airport, which connects 
-                                the island to major hubs in the Pacific region. For those 
-                                traveling from other parts of the Pacific, regional airlines offer 
-                                frequent connections to Taniti from nearby islands and countries. 
-                                Taniti airport is small but well-equipped, with modern amenities 
-                                to ensure a smooth arrival. The airport features a duty-free shop, a 
-                                few small cafes, and a tourist information desk where you can get maps, 
-                                brochures, and tips for your stay.
+                                Taniti is served by a small airport, that can accommodate small 
+                                jets and propeller planes. We are in the process of expanding the 
+                                airport so larger jets will be able to land on the island within the 
+                                next few years. Although our airport is small, it is well-equipped, 
+                                with modern amenities to ensure a smooth arrival. The airport features 
+                                a duty-free shop, a few small cafes, and a tourist information desk where 
+                                you can get maps, brochures, and tips for your stay.
                             </p>
                         </div>
 
