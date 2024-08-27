@@ -38,9 +38,10 @@ export default function Contact(){
                     <div className="contact--info">
                         <h2><span className="underline">How</span> can we help you?</h2>
                         <p>
-                            Please let us know how we can be of any assistance. <br />
-                            Leave your information below and we'll get back to 
-                            you as soon as possible.
+                           Whether you're looking for information about our beaches, 
+                           activities, or assistance on how to book accomodation, we're 
+                           here to help. Leave your information below and our Tourism team 
+                           will get back to you as soon as possible.
                         </p>
 
                         <form id="contact--form" onSubmit={handleSubmit}>

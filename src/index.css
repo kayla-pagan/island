@@ -16,7 +16,6 @@ footer {
   padding-block: 2em;
   text-align: center;
   font-family: inherit;
-  font-weight: 700;
 }
 
 header {
@@ -362,6 +361,10 @@ main {
   min-height: 14em;
   object-fit: cover;
   border-radius: 5px;
+}
+
+.contact--info p {
+  width: 80%;
 }
 
 #contact--form div {
