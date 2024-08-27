@@ -7,6 +7,16 @@ html, body {
   padding: 0;
   font-family: "Quicksand", sans-serif;
   font-size: 12px;
+  position: relative;
+}
+
+footer {
+  color: whitesmoke;
+  background-color: #363537;
+  padding-block: 2em;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
 }
 
 header {
@@ -82,8 +92,13 @@ header nav a:hover {
   transform: rotate(90deg);
 }
 
+.layout--wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 main {
-  height: calc(100dvh - 105px);
+  min-height: calc(100dvh - 168px);
 }
 
 .home {
